@@ -1,5 +1,5 @@
 def nonDivisibleSubset(k, s):
-    count = [0] * k
+    count = [0] * k #creates a list filled with zeros with size k
 
     for i in s:
         remainder = i % k
