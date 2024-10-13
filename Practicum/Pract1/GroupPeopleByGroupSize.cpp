@@ -1,3 +1,5 @@
+
+// O(N^2) solution
 class Solution {
 public:
     vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
