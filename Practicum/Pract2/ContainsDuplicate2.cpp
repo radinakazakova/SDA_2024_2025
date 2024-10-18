@@ -1,5 +1,4 @@
 class Solution {
-    vector<int> seen = {0};
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
       vector<pair<int,int>> numsIdx;
