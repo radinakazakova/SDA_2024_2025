@@ -1,3 +1,4 @@
+От Георги Терзиев:
 Merge sorted arrays - Easy - https://leetcode.com/problems/merge-sorted-array/
 
 Find the difference - Easy - https://leetcode.com/problems/find-the-difference/
@@ -11,3 +12,5 @@ Maximum product of three numbers - Easy - https://leetcode.com/problems/maximum-
 Quick select (k-th element) - Medium - https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 Non-overlapping Intervals - Medium - https://leetcode.com/problems/non-overlapping-intervals/
+
+Sort characters by frequency - Medium - https://leetcode.com/problems/sort-characters-by-frequency/
