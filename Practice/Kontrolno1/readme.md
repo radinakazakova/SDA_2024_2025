@@ -14,3 +14,5 @@ Quick select (k-th element) - Medium - https://leetcode.com/problems/kth-largest
 Non-overlapping Intervals - Medium - https://leetcode.com/problems/non-overlapping-intervals/
 
 Sort characters by frequency - Medium - https://leetcode.com/problems/sort-characters-by-frequency/
+
+Ред в хаоса - https://www.hackerrank.com/contests/sda-test1-2022-2023/challenges/challenge-3676/problem
