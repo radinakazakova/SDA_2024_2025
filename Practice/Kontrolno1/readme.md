@@ -9,3 +9,5 @@ Intersection of two arrays 2 - Easy - https://leetcode.com/problems/intersection
 Maximum product of three numbers - Easy - https://leetcode.com/problems/maximum-product-of-three-numbers/
 
 Quick select (k-th element) - Medium - https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+Non-overlapping Intervals - Medium - https://leetcode.com/problems/non-overlapping-intervals/
