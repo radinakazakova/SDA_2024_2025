@@ -17,3 +17,6 @@ Non-overlapping Intervals - Medium - https://leetcode.com/problems/non-overlappi
 Sort characters by frequency - Medium - https://leetcode.com/problems/sort-characters-by-frequency/
 
 Ред в хаоса - https://www.hackerrank.com/contests/sda-test1-2022-2023/challenges/challenge-3676/problem
+
+Find all duplicated in an array - Medium - https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+- Hint: Подобно на https://leetcode.com/problems/first-missing-positive/
