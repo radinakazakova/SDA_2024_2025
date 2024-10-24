@@ -50,6 +50,8 @@ public:
     vector<int> searchRange(vector<int>& nums, int target) {
         vector<int> result(2, -1);
         result[0] = lowerBound(nums, target);
+        if(result[0] == -1)
+            return vector<int> {-1,-1};
         result[1] = upperBound(nums, target);
         return result;
     }
