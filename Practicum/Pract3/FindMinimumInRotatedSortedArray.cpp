@@ -1,3 +1,25 @@
+//заради възможността от дупликати се изисква да използваме рекурсия
+//без дупликати кодът ще изглежда така:
+/* class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+        int left = 0, right = nums.size() - 1;
+
+        while(left < right) {
+            int mid = left + (right - left) / 2;
+            if(nums[mid] < nums[right]) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return nums[right]; //тук няма значение дали ще върнем left или right, защото цикълът приключва, когато са равни
+    }
+};
+*/
+
 class Solution {
 public:
 
@@ -18,15 +40,15 @@ public:
                 continue;
             }
 
-            if(nums[mid] == nums[right] && left != right) //за дупликати
-            {
+            if(nums[mid] == nums[right] && left != right) //за дупликати, пример: [1,3,3]
+            { 
                 int leftSearchValue = binarySearch(nums, left, mid);
                 if (leftSearchValue != nums[mid]) {
                     // If a different value is found in the left half, return it
                     return leftSearchValue;
                 }
                 // Otherwise, search the right half
-                return binarySearch(nums, mid + 1, right);
+                return binarySearch(nums, mid + 1, right); //заради примери като: [3, 3, 1, 3]
             }
 
             // Base case: If we have reduced the range to a single element, return it as the minimum
