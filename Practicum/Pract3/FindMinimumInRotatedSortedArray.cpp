@@ -28,7 +28,7 @@ public:
         {
             int mid = left + (right - left) / 2;
 
-            if(nums[mid] > nums[right]) //не може да е mid - защото е по-малко от right
+            if(nums[mid] > nums[right]) //не може да е mid - защото е по-голямо от right
             {
                 left = mid + 1;
                 continue;
@@ -40,7 +40,7 @@ public:
                 continue;
             }
 
-            if(nums[mid] == nums[right] && left != right) //за дупликати, пример: [1,3,3]
+            if(nums[mid] == nums[right] && left != right) //за дупликати, пример: [1,3,3]; left != right : не сме преминали през всички възможности
             { 
                 int leftSearchValue = binarySearch(nums, left, mid);
                 if (leftSearchValue != nums[mid]) {
