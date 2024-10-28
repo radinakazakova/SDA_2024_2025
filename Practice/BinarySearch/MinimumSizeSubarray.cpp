@@ -1,7 +1,7 @@
 //binary prez sizes i sliding window, za da namerim dali size-a go ima
 class Solution {
 public:
-    bool foundSum(vector<int>& nums, int size, int target) //с нормални sliding window не стана
+    bool foundSum(vector<int>& nums, int size, int target) //sliding window с фиксирана дължина
     {
         int sum = 0;
         for(int i=0;i<size;i++)sum+=nums[i]; //макс сума от 0 до мид сайз на прозореца
