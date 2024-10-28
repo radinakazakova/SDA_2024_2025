@@ -10,7 +10,7 @@ public:
             if(nums[mid] == target)
                 return true;
 
-            if(nums[mid] == nums[left] && nums[mid] == nums[right]) //работ, защото ни пречат само когато са от двете страни. ако left==mid, то и right==mid,заради ротацията
+            if(nums[mid] == nums[left] && nums[mid] == nums[right]) //работи, защото ни пречат само когато са от двете страни. ако left==mid, то и right==mid,заради ротацията
             {
                 left++;
                 right--;
