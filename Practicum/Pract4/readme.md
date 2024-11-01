@@ -5,5 +5,5 @@
 - [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) - MEDIUM
 - [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) - MEDIUM
 - [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/) - HARD
-- [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) - EASY
+- [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) - EASY - решение на семинар
 - [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) - MEDIUM
