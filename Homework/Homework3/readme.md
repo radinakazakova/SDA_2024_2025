@@ -5,3 +5,5 @@ Delete Duplicate Nodes - https://www.hackerrank.com/contests/sda-2024-2025-hw03/
 Insert Node at Specific Position - https://www.hackerrank.com/contests/sda-2024-2025-hw03/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem
 
 Обръщане на к-групи - https://www.hackerrank.com/contests/sda-2024-2025-hw03/challenges/k--12/problem
+
+NPM Install - https://www.hackerrank.com/contests/sda-2024-2025-hw03/challenges/npm-install-1/problem
