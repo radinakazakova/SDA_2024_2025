@@ -40,7 +40,7 @@ int main() {
         }  
       
         currentNums.push(input[i]);
-        currentMin = min(currentNums.back(), currentMin);
+        //currentMin = min(currentNums.back(), currentMin); ненужно
 
         sum+=currentMin;
         currentNums.pop();  
