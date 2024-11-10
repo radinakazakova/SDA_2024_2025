@@ -6,7 +6,7 @@ public:
         if(size == 1 || size == 0)
             return nums;
 
-        deque<pair<int,int>> maximums;
+        deque<pair<int,int>> maximums; //може тук само да се пазят индексите и с тях да достъпваме в масива за value-то
         for(int i = 0; i < size; i++)
         {
             if(!maximums.empty() && maximums.front().second < i - k + 1)
