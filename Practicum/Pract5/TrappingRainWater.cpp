@@ -14,7 +14,7 @@ public:
                     continue;
                 }
                 
-                int waterBlocks = std::min(height[i]/*дясна преграда*/, blocks.front().first /*лява преграда*/) - block.first; //колко блокчета над текущото според височината на преградите без неговата си височина
+                int waterBlocks = std::min(height[i]/*дясна преграда*/, blocks.front().first /*най-лява преграда*/) - block.first; //колко блокчета над текущото според височината на преградите без неговата си височина
                 int interval = block.second - blocks.back().second; //разстояние между предходния и текущия
                 trappedWater += waterBlocks * interval;
             }
