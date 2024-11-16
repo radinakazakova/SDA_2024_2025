@@ -36,10 +36,11 @@ struct Node
 void print(Node* root)
 {
     
-    if(!root || !root->left || !root->right)
+    if(!root)
         return;
     
-    cout << root->value << ' ';
+    if(root->left && root->right) //проверка тук, защото ако е горе ще скипнем наследниците на nodes, които имат по един наследник, но този 1 наследник може да има 2 наследника
+        cout << root->value << ' ';
     print(root->left);
     print(root->right);
 }
