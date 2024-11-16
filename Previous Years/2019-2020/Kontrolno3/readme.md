@@ -5,7 +5,7 @@
 
 # Tasks
 
-## Task 1. Tree-specific-print (Difficulty: Medium) - [HackerRank](<https://www.hackerrank.com/contests/sda-2019-2020-test3/challenges/tree-specific-print>)
+## Task 1. Tree-specific-print (Difficulty: Medium) - [HackerRank](<https://www.hackerrank.com/contests/sda-2019-2020-test3/challenges/tree-specific-print>) - решена 2021-2022
 
 ## Task 2. Print-specific-level (Difficulty: Medium) - [HackerRank](<https://www.hackerrank.com/contests/sda-2019-2020-test3/challenges/print-specific-level>)
 
