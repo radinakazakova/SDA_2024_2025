@@ -1,12 +1,14 @@
 Повечето задачи са като тазгодишниите
-#  Дървета - [Contest](<https://www.hackerrank.com/contests/sda-hw-6-2023/challenges>)
+# Homework 06: Дървета - [Contest](<https://www.hackerrank.com/contests/sda-hw-6-2022/challenges>)
 
 ---
 
 # Tasks
 
-## Task 1. Скиорски кошмар (Difficulty: Easy) - [HackerRank](<https://www.hackerrank.com/contests/sda-hw-6-2023/challenges/vertical-sums>)
+## 1. Скиорски кошмар (Easy) - [HackerRank](<https://www.hackerrank.com/contests/sda-hw-6-2022/challenges/vertical-sums>)
 
-## Task 2. Час по рисуване (Difficulty: Medium) - [HackerRank](<https://www.hackerrank.com/contests/sda-hw-6-2023/challenges/task3score>)
+## 2. Коледно двоично дърво за търсене (Medium) - [HackerRank](<https://www.hackerrank.com/contests/sda-hw-6-2022/challenges/validate-bst-2>)
 
-## Task 3. Дълъг път (Difficulty: Medium) - [HackerRank](<https://www.hackerrank.com/contests/sda-hw-6-2023/challenges/task2sum>)
+## 3. Родословно дърво (Hard) - [HackerRank](<https://www.hackerrank.com/contests/sda-hw-6-2022/challenges/parent>)
+
+## 4. Учене на гръцки (Medium) - [HackerRank](<https://www.hackerrank.com/contests/sda-hw-6-2022/challenges/match-2>)
