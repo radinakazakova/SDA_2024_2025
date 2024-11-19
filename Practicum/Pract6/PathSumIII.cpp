@@ -16,15 +16,15 @@ class Solution {
             return;
         }
 
-        if(node->val == targetSum){
+        if(node->val == targetSum){ //намаляваме targetsum с value всеки път затова тук ще получим решение
             ++ans;
         }
 
-        dfs(node->left, targetSum - node->val, ans, originalTargetSum, false);
+        dfs(node->left, targetSum - node->val, ans, originalTargetSum, false); //откъдето сме започнали проверяваме наляво
         if(first){
-            dfs(node->left, originalTargetSum, ans, originalTargetSum, true);
+            dfs(node->left, originalTargetSum, ans, originalTargetSum, true); //за следващия node проверяваме ако той е първи
         }
-
+        //Аналогично
         dfs(node->right, targetSum - node->val, ans, originalTargetSum, false);
         if(first){
             dfs(node->right, originalTargetSum, ans, originalTargetSum, true);
