@@ -6,7 +6,6 @@ public:
 
         vector<long long> level(size, 0);
 
-        bool obstacleEncounter = false;
         for(int i = 0; i < size; i++) //определяме първия ред
         {
             if(obstacleGrid[0][i] == 1) {
