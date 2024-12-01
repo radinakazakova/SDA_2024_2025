@@ -1,4 +1,4 @@
-//не минава всички тестове
+//Сложност О(N*М)
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -24,7 +24,38 @@ int main() {
     cout << maxSequence;
 }
 
+//или по-разбираемо
+int main() {
+    string s1, s2;
+    cin >> s1 >> s2;
+    size_t M = s1.size();
+    size_t N = s2.size();
+
+    size_t maxSequence = 0;
+    for (size_t row = 0; row < M; ++row) 
+    {
+        size_t currentRow = row;
+        size_t sequence = 0;
+
+        for (size_t column = 0; column < N && currentRow < M; ++column) 
+        {
+            if (s1[currentRow] != s2[column]) 
+            {
+                sequence = 0;
+            } else 
+            {
+                sequence++;
+                maxSequence = max(maxSequence, sequence);
+            }
+            currentRow++;
+        }
+    }
+    cout << maxSequence;
+    return 0;
+}
+
 //същото решение само че с динамично програмиране
+//не минава всички тестове обаче
 
 int main() {
     string s1, s2;
