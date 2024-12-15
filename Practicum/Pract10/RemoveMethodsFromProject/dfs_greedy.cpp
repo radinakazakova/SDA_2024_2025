@@ -24,23 +24,15 @@ public:
         bool isInvoked = false;
         for(int i = 0; i < n; i++) //обхождаме всички възли, за да разберем дали някой външен invoke-ва
         {
-            bool temp = false;
             if(!visited.count(i)) //за възли, които не са suspicious
             {
                 for(auto neighbor: graph[i]) 
                 {
                     if(visited.count(neighbor)) //проверяваме дали invoke-ва suspicious възел
                     {
-                        temp = true;
-                        break;
+                        isInvoked = true;
+                        break; //ако поне един invoke-ва, значи ще ги запазим в резултата
                     }
-                }
-
-                //ако сме намерили, че поне един invoke-ва някой от тези, които са suspicious - значи ще запазим тези, които са suspicious също в резултата
-                if(temp)
-                {
-                    isInvoked = true;
-                    break;
                 }
             }
         }
