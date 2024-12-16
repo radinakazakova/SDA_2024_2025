@@ -1,6 +1,6 @@
 class KthLargest {
 public:
-    priority_queue<int, vector<int>, greater<int>> pq; //minHeap, за да останат к на брой най-голями числа
+    priority_queue<int, vector<int>, greater<int>> pq; //minHeap, за да останат к на брой най-голeми числа
     int k;
     KthLargest(int k, vector<int>& nums) : k(k) {
         
