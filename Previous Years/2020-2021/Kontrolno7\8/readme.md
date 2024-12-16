@@ -10,6 +10,6 @@
 
 двете задачи са решавани някъде в repo-то
 
-Поръчки и доставки - https://www.hackerrank.com/contests/sda-2020-2021-test8-immwjff/challenges/1-140
+Поръчки и доставки - https://www.hackerrank.com/contests/sda-2020-2021-test8-immwjff/challenges/1-140 - решавана за map и set
 
 Проблемите на златаря - https://www.hackerrank.com/contests/sda-2020-2021-test8-immwjff/challenges/challenge-1604
