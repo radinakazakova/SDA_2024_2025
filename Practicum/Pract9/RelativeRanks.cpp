@@ -14,12 +14,10 @@ public:
         }
 
         vector<string> res(size);
-        int counter = 0;
         for(int i = 0; i < size; i++)
         {
             auto curr = pq.top();
             pq.pop();
-            counter++;
             if(i == 0)
             {
                 res[curr.second] = "Gold Medal";
@@ -34,7 +32,7 @@ public:
             }
             else
             {
-                res[curr.second] = to_string(counter);
+                res[curr.second] = to_string(i+1);
             }
         }
         return res;
