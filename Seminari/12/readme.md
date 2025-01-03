@@ -22,7 +22,7 @@
 - Тежестта може да представлява цена, разстояние, капацитет и т.н.
 - Представянето може да се реализира по различни начини в зависимост какво трябва задачата. Един такъв начин е чрез списък на съседство. Всеки връх притежава списък от наредените двойки - съседен връх и тегло на реброто. Друг начин е с матрица на съседство.
 
-![Dijkstra undirected graph example](media/dijkstra_undirected_graph.png)
+![Dijkstra undirected graph example](dijkstra_undirected_graph.png)
 
 ```python
 undirected_graph = {
@@ -160,7 +160,7 @@ graph_list_of_edges = [
 ]
 ```
 
-![Dijkstra negative edge graph example](media/dijkstra_negative_edge_graph.png)
+![Dijkstra negative edge graph example](dijkstra_negative_edge_graph.png)
 
 Въпрос: Какво щеше да стане ако реброто от 0 към 1 беше насочено от 1 към 0? 
 
