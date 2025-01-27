@@ -83,36 +83,28 @@ void free_doubly_linked_list(DoublyLinkedListNode* node) {
 
 DoublyLinkedListNode* sortedInsert(DoublyLinkedListNode* llist, int data) {
     DoublyLinkedListNode* iter = llist;
-    if(data <= iter->data)
+    DoublyLinkedListNode* newNode = new DoublyLinkedListNode(data);
+    
+    if(data <= iter->data) //nai-maluk element - otpred
     {
-        DoublyLinkedListNode* newNode = new DoublyLinkedListNode(data);
         newNode->next = iter;
         iter->prev = newNode;
-        //llist = newNode
         return newNode;
     }
-    if(!iter->next)
-    {
-        DoublyLinkedListNode* newNode = new DoublyLinkedListNode(data);
-        iter->next = newNode;
-        newNode->prev = iter;
-        return llist;
-    }
     
-    while(iter->next && iter->data < data)
+    while(iter->next && iter->data < data) //iter shte zastane na mqstoto na tova, koeto iskame da slojim
     {
         iter = iter->next;
     }
     
-    
-    if(!iter->next && iter->data < data)
+    if(!iter->next && iter->data < data) //dobavqme otzad, stignali sme kraq na spisuka i data e po-golqmo
     {
-        DoublyLinkedListNode* newNode = new DoublyLinkedListNode(data);
+        
         iter->next = newNode;
         newNode->prev = iter;
         return llist;
     }
-        DoublyLinkedListNode* newNode = new DoublyLinkedListNode(data);
+        //inache zamestvame kudeto e iter s newNode
         DoublyLinkedListNode* prev = iter->prev;
         prev->next = newNode;
         newNode->prev = prev;
