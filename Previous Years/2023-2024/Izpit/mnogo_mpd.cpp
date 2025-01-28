@@ -104,7 +104,7 @@ int main()
 
         // Add isolated vertices as components
         for (size_t j = 0; j < V; j++) {
-            if (uf.getParent(i) == j && uf.componentSize(j) == 1) {
+            if (uf.getParent(j) == j && uf.componentSize(j) == 1) {
                 componentWeights[j] = 0; // No edges in the component
             }
         }
